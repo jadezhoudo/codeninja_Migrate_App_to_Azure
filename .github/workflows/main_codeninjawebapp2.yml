@@ -26,6 +26,7 @@ jobs:
         run: |
           cd web
           pwd
+          ls
           python -m venv venv
           source venv/bin/activate
       
