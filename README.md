@@ -65,7 +65,7 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 | ------------ | ------------ | ------------ |
 | *Azure Postgres Database* |  Basic - Single Server   |      65.08 USD        |
 | *Azure Service Bus*   |      Basic Service Plan - B1   |       14.08 USD        |
-| *App Service*                   |       Basic  |         0.5 USD     |
+| *App Service*                   |       Basic  |         0.05 USD     |
 | *Azure Functions*                   |       	Consumption Tier  |        __     |
 | *Storage Accounts*                   |       Storage (General Purpose V1)  |         __     |
 
@@ -79,7 +79,7 @@ Explanation: Chose Basic tier for cost efficiency, providing a dedicated Postgre
 
 2. App Service:
 Tier: Basic
-Monthly Cost: $0.5
+Monthly Cost: $0.05
 Explanation: Selected Basic tier for low-cost hosting of the Flask-based web app. Provides sufficient resources for small to medium-sized applications, with easy deployment and scaling based on demand.
 
 3. Azure Functions:
