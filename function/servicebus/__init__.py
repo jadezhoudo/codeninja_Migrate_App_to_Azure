@@ -80,7 +80,7 @@ def main(msg: func.ServiceBusMessage):
 
         # TODO: Update the notification table by setting the completed date and updating the status with the total number of attendees notified
 
-        status = f"Attendees Notified: {str(count)} "
+        status = f"Notified {str(count)} attendees"
         logging.info(f"ID{str(notification_id)}: {status}@{datetime.now()}")
 
         command = f"UPDATE notification SET status= '{status}' WHERE id={str(notification_id)}"
